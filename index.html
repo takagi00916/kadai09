@@ -1,0 +1,267 @@
+<!doctype html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>門庭</title>
+        <meta name="viewport" content="width=device-width,user-scalable=no,maximum-scale=1">
+        <meta name="robots" content="noindex,nofollow">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+        <link rel="stylesheet" type="text/css" href="css/style.css">
+    <body>
+        <div id="app">
+            <div class="background_block">
+                <header class="header">
+                    <div class="logo-block">
+                        <img src="image/logo2-1.png" alt="logo">
+                    </div>
+                    <div class="header-container">
+                        <div class="adress-text">
+                            <ul>
+                                <li> 東京都江東区富岡1-6-6TTRビル1F </li>
+                                <li> TEL:03-5875-9666 </li>
+                                <li> 毎週月曜定休 </li>
+                            </ul>
+                        </div>
+                    </div>
+                </header>
+                <div class="top_block">
+                    <div class="top-logo-container">
+                        <img src=image/logo2.png alt="ロゴ2">
+                    </div>
+                </div>
+                <div class="top_block-sp">
+                </div>
+                <main class="main">
+                    <section class="intro-section">
+                        <div class="intro_block1">
+                            <div class="intro_block1-img">
+                                <img src="image/mise.jpg" alt="店">
+                            </div>
+                            <div class="intro_block1-text">
+                                <h2>門前は肉問屋直営店です</h2>
+                                <p>門前仲町の庭でありたいー<br>その思いから名付けられた『門庭』は、</p>
+                                <p>創業40年を超える老舗肉問屋『山全』直営の焼肉店です。</p>
+                            </div>
+                        </div>
+                        <div class="intro_block2">
+                            <div class="intro_block2-text">
+                                <h2>こだわりの味</h2>
+                                <p>門庭では毎月、九州和牛を中心にプロが厳選して仕入れを行っています。</p>
+                                <p>老舗肉問屋直営だからこそ叶う<br>質・鮮度・味を、是非ご堪能下さい。</p>
+                            </div>
+                            <div class="intro_block2-img">
+                                <img src="image/namaniku.jpg" alt="店">
+                            </div>
+                        </div>
+                    </section>
+                    <section class="menu-section">
+                        <div class="course_menu">
+                            <h1>コースメニュー</h1>
+                            <div class="intro-menu_block">
+                                <div class="intro-menu">
+                                    <div class="intro-menu-img">
+                                        <img src="image/gensen.jpg" alt="厳選">
+                                    </div>
+                                    <div class="intro-menu-text">
+                                        <h2 v-on:click="acordion_btn">門庭厳選コース(11品)</h2>
+                                        <h3>税込3,500円</h3>
+                                        <p>キムチ/ナムル/チョレギサラダ/タン塩/トントロ/カルビ/ハラミ/ヒレ/鶏モモ/テールおじやorミニ冷麺/デザート</p>
+                                    </div>
+                                </div>
+                                <div class="intro-menu">
+                                    <div class="intro-menu-img">
+                                        <img src="image/zeitaku.jpg" alt="贅沢">
+                                    </div>
+                                    <div class="intro-menu-text">
+                                        <h2>門庭贅沢コース(10品)</h2>
+                                        <h3>税込5,000円</h3>
+                                        <p>キムチ/ナムル/門庭サラダ/タン塩/トントロ/和牛上カルビ/和牛上ロース/国産豚バラ/本日のおすすめ和牛肉2点/テールおじやorミニ冷麺/デザート</p>
+                                    </div>
+                                </div>
+                                <div class="intro-menu">
+                                    <div class="intro-menu-img">
+                                        <img src="image/akami.jpg" alt="究極">
+                                    </div>
+                                    <div class="intro-menu-text">
+                                        <h2>門庭究極の赤身コース(11品)</h2>
+                                        <h3>税込6,000円</h3>
+                                        <p>キムチ/ナムル/サラダ/和牛黒タン塩/カメノコ/和牛上ハラミ/本日の厳選赤身肉2点/テールおじやorミニ冷麺/デザート</p>
+                                    </div>
+                                </div>
+                                <div class="intro-menu">
+                                    <div class="intro-menu-img">
+                                        <img src="image/kiwami.jpg" alt="極み">
+                                    </div>
+                                    <div class="intro-menu-text">
+                                        <h2>最高峰の極みコース(10品)</h2>
+                                        <h3>税込8,000円</h3>
+                                        <p>キムチ/ナムル/サラダ/海鮮盛り/和牛黒タン塩/和牛プリスケ(ササバラ)/和牛ヒレ(シャトーブリアン)/和牛上ハラミ/テールおじやorミニ冷麺/デザート</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="hosoku">
+                                <ul>
+                                    <li> 各コース2名様より承ります。 </li>
+                                    <li> 全てのコースにプラス1500円で2時間飲み放題が付けられます。(L.O.30分前) </li>
+                                    <li> ※上記コース以外にもご予算・お好みでコースをお作り致します。 </li>
+                                    <li> お気軽にお問い合わせ下さい。 </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="pickup_menu">
+                            <h1>ピックアップメニュー</h1>
+                            <div class="pickup_menu-block">
+                                <div class="pickup_intro1">
+                                    <div class="pickup_intro-menu1-img">
+                                    </div>
+                                    <div class="pickup_intro1-text">
+                                        <h3>白菜キムチ</h3>
+                                        <p>この道45年の沖縄出身の料理長が丹精込めて毎週付けています。旨辛の味をお楽しみ下さい。</p>
+                                    </div>
+                                </div>
+                                <div class="pickup_intro2">
+                                    <div class="pickup_intro-menu2-img">
+                                    </div>
+                                    <div class="pickup_intro2-text">
+                                        <h3>テールおじや</h3>
+                                        <p>和牛の尻尾を使用した栄養たっぷりなテールおじや旨味とコクが堪らない1品です。</p>
+                                    </div>
+                                </div>
+                                <div class="pickup_intro3">
+                                    <div class="pickup_intro-menu3-img">
+                                    </div>
+                                    <div class="pickup_intro3-text">
+                                        <h3>ホルモン5種盛り</h3>
+                                        <p>屠場より入荷した鮮度抜群のホルモンをプリプリのままご提供致します。</p>
+                                    </div>
+                                </div>
+                                <div class="pickup_intro4">
+                                    <div class="pickup_intro-menu4-img">
+                                    </div>
+                                    <div class="pickup_intro4-text">
+                                        <h3>和牛カルビ</h3>
+                                        <p>その時に入荷した和牛バラを厳選し選び抜かれたカルビです。味は勿論コスパも最高です。</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="recomend-block">
+                                <h1>おすすめのメニューを提案します</h1>
+                                <div class="recomend-block-qa">
+                                  <p>
+                                    質問の答えに合わせて、あなたにぴったりのメニューをご紹介します。
+                                  </p>
+                                  <section class="recomend-block-qa-section" v-if="status === 1">
+                                    <h2>どっちを食べたい？</h2>
+                                    <div class="button-block">
+                                        <button  @click="q1('sappari')">サイドメニュー</button>
+                                    <button @click="q1('gatturi')">肉がっつり</button>
+                                    </div>
+                                  </section>
+                                  <section  class="recomend-block-qa-section"  v-if="status === 2">
+                                    <h2>風味は？</h2>
+                                    <div class="button-block">
+                                        <button @click="q2(1)">クセがある</button>
+                                    <button @click="q2(2)">安定の旨さ</button>
+                                    </div>
+                                  </section>
+                                  <div class="result" v-if="status === 3">
+                                    <h2>あなたにぴったりのメニューは…</h2>
+                                    <p><strong>{{ result }}</strong>です！</p>
+                                    <p>最高の焼肉ライフをあなたに！</p>
+                                    <div class="button-block2">
+                                        <button @click="reset">もう一度考える</button>
+                                    </div>
+                                  </div>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                    <section class="tenpo-section">
+                        <h1>店舗案内</h1>
+                        <p>お肉を焼いた煙はテーブルに吸収されるので、煙を気にすることなく、お食事を楽しめます。</p>
+                        <div class="tenpo-img_block">
+                            <div class="tenpo-img_naka1">
+                                <img src="image/naka1.jpg" alt="中1">
+                                <p>テーブル席<br>(2～6名様用)</p>
+                            </div>
+                            <div class="tenpo-img_naka2">
+                                <img src="image/naka2.jpg" alt="中2">
+                                <p>テーブル席<br>(8～13名様用)</p>
+                            </div>
+                            <div class="tenpo-img_naka3">
+                                <img src="image/naka3.jpg" alt="中3">
+                                <p>25名様～38名様で<br>貸切承ります。</p>
+                            </div>
+                        </div>
+                        <table class="tenpo-info">
+                            <tr>
+                                <th>営業時間</th>
+                                <td>【火～土】17:00～24:00(Last Order 23:00)<br>【日】16:00～23:00(Last Order 22:00)<br>【ランチ(火～金)】11:30～14:00(Last Order 23:00)</td>
+                            </tr>
+                            <tr>
+                                <th>定休日</th>
+                                <td>毎週月曜日</td>
+                            </tr>
+                            <tr>
+                                <th>住所</th>
+                                <td>東京都江東区富岡1-6-6TTRビル１F</td>
+                            </tr>
+                            <tr>
+                                <th>電話</th>
+                                <td>03-5875-9666</td>
+                            </tr>
+                            <tr>
+                                <th>クレジットカード・電子マネー</th>
+                                <td>ご利用いただけます</td>
+                            </tr>
+                            <tr>
+                                <th>その他ご案内</th>
+                                <td>全席喫煙可能、近隣にパーキングあり</td>
+                            </tr>
+                        </table>
+                        <section class="map">
+                            <div class="map-block">
+                                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3241.241753075013!2d139.79493171525854!3d35.67104888019666!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6018891274c53765%3A0xbdf8c02cb0d2bc43!2z6ZaA5bqt!5e0!3m2!1sja!2sjp!4v1668750311861!5m2!1sja!2sjp" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                            </div>
+                        </section>
+                        <table class="tenpo-info2">
+                            <tr>
+                                <th>アクセス</th>
+                                <td>地下鉄東西線 門前仲町駅 A2番出口 徒歩1分<br>2番出口を右に出て、デイリーヤマザキさんと花屋さんの間の小道に入って10メートルほど先の右手になります。</td>
+                            </tr>
+                        </table>
+                    </section>
+                    <section class="reserve-section">
+                        <h1>席を予約する</h1>
+                        <div class="reserve-section_image-block">
+                            <img src="image/yoyaku.jpg" alt="予約">
+                        </div>
+                        <p>肉問屋直営店ならではの、こだわり品質の和牛を取り揃えております。<br>皆様のご来店を心よりお待ちしております。</p>
+                        <div class="tel_block">
+                            <p>Tel:03-5875-9666</p>
+                        </div>
+                        <span class="text-line">
+                            <p>各種グルメサイトからは24時間空席確認とネット予約が可能です。<br>併せてご利用ください</p>
+                        </span>
+                        <p>門庭を気に入っていただけた方はいいね＆フォローお願いします！</p>
+                    </section>
+                    <div class="sns-img_block">
+                        <div class="facebook-img">
+                            <img src="image/fb.png" alt="facebook">
+                        </div>
+                        <div class="twitter-img">
+                            <img src="image/tw.png" alt="twitter">
+                        </div>
+                        <div class="return-top-img">
+                            <img src="image/top.png" alt="top">
+                        </div>
+                    </div>
+                </main>
+                <footer class="footer">
+                </footer>
+            </div>
+        </div>
+    </body>
+    <script src="https://cdn.jsdelivr.net/npm/vue@2/dist/vue.js"></script>
+    <script src="js/main.js"></script>
+</html>
